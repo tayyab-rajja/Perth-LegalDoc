@@ -11,106 +11,165 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" type="text/css" href="styles.css" media="”screen”" />
-    
+    <link rel="stylesheet" type="text/css" href="styles.css" >    
 
-    <!-- <link rel="stylesheet" type="text/css" href="styles.css" /> -->
   </head>
   <body>
+
     <!-- NAVBAR -->
+<div class="header-img">
+    <div class="main-nav pt-4">
+        <nav class="navbar p-2 navbar-expand-xl navbar-light bg-light nav-margin rounded">
+            <div class="container-fluid ">
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-          <img
-            src="./images/Logos/main-logo.png"
-            alt=""
-            width="187"
-            height="74"
-          />
-        </a>
-        <button class="d-flex">
-          <img
-            src="./images/Logos/main-logo.png"
-            alt=""
-            width="10"
-            height="20"
-          />
-          <input
-            class="me-2 rounded-corner"
-            type="search"
-            placeholder="Type Searching"
-          />
-        </button>
-
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="navbar-margin">
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  id="navbarDropdown"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Order Documents
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider" /></li>
-                  <li>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                  </li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#"
-                  >Prices</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#"
-                  >About us</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#"
-                  >Contact us</a
-                >
-              </li>
+              <a class="navbar-brand" href="#">
+                <img
+                class="img-fluid"
+                  src="./images/Logos/main-logo.png"
+                  alt=""
+                height="74"
+                width="187"
+                 
+                />
+              </a>
+             
+              
+              <div class="">
+                
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                 
+                  <div class="search d-flex">
+                    <div class="icon float-left">
+                      <img
+                      class="img-fluid"
+                        src="./images/images/search.png"
+                        alt=""
+                        height="25"
+                        width="25"
+                       >
+                    </img>
+                    </div>
+                    <div class="search-input ">
+                        <input class="no-border" placeholder="Search Something"/>
+                    </div>
+                  </div>
+                  
+                  <div class="main-items">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a
+                          class="nav-link dropdown-toggle"
+                          href="#"
+                          id="navbarDropdown"
+                          role="button"
+                          data-bs-toggle="dropdown"
+                          aria-expanded="false"
+                        >
+                          Order Documents
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider" /></li>
+                          <li>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"
+                          >Prices</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"
+                          >About us</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"
+                          >Contact us</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                  
+                  <div class="">
+                    <a
+                    class="btn signup-btn button"
+                    type="submit"
+                
+                  >
+                    SIGN IN
+                  </a>
+                </div>
+                </div>
+              </div>
               <button
-                class="btn btn-primary sign-btn"
-                type="submit"
-                width="160"
-                height="50"
-              >
-                Button
-              </button>
-              <li class="nav-item">
-                <a class="nav-link" href="#"></a>
-              </li>
-            </ul>
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            </div>
+          </nav>
+    </div>
+    
+</div>
+
+<div class="cards row justify-content-between ">
+
+    <div class="card mb-3 col-md-12" style="max-width: 400px; background-color: white; border-radius: 15px; ">
+        <div class="row g-0 mt-3">
+          <div class="col-md-4 col-xl-4 col-lg-4">
+            <img src="./images/images/Xero-logo.png" class="rounded-start card-img" alt="...">
+          </div>
+          <div class="col-md-8 col-xl-8 ">
+            <div class="card-body">
+              <h5 class="card-title">What We Do</h5>
+              <p class="card-texts">We provide quality documents at a competitive price.</p>
+            </div>
           </div>
         </div>
       </div>
-    </nav>
+
+      <div class="card mb-3" style="max-width: 400px; background-color: white; border-radius: 15px; ">
+        <div class="row g-0 mt-3">
+          <div class="col-md-4 col-xl-4 col-lg-4">
+            <img src="./images/images/Xero-logo.png" class="  card-img" alt="...">
+          </div>
+          <div class="col-md-8 col-xl-8 ">
+            <div class="card-body">
+              <h5 class="card-title">What We Do</h5>
+              <p class="card-texts">We provide quality documents at a competitive price.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mb-3" style="max-width: 400px; background-color: white; border-radius: 15px; ">
+        <div class="row g-0 mt-3">
+          <div class="col-md-4 col-xl-4 col-lg-4">
+            <img src="./images/images/Xero-logo.png" class=" card-img" alt="...">
+          </div>
+          <div class="col-md-8 col-xl-8 ">
+            <div class="card-body">
+              <h5 class="card-title">What We Do</h5>
+              <p class="card-texts">We provide quality documents at a competitive price.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+</div>
 
     <h1>WEB SECTIONS</h1>
     <h1>WEB SECTIONS</h1>
@@ -125,80 +184,77 @@
 
     <!-- FOOTER -->
 
-    <div class="footer">
-      <footer
-        class="text-center text-lg-start text-dark mt-5"
-        style="background-color: #eceff1"
-      >
-        <!-- Section: Links  -->
+    <div class="">
+      <div class="text-center text-lg-start text-dark mt-5">
+        
         <section class="">
           <div class="container text-center text-md-start mt-5">
             <!-- Grid row -->
             <div class="row">
-              <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <div class="col-md-6 col-lg-4 col-xl-3 mx-auto mb-4">
                 <img
+                class="logo-footer"
                   src="./images/Logos/main-logo.png"
                   alt=""
-                  width="292"
-                  height="115"
+                  
                 />
-                <p class="text-color">
+                <p class="footer-color">
                   Perth Legal Docs registers companies and creates trusts for
                   our clients. We provide quality documents at a competitive
                   price.
                 </p>
               </div>
 
-              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <div class="col-md-6 col-lg-4 col-xl-2 mx-auto mb-4">
                 <h6 class="text-uppercase fw-bold">Get in Touch</h6>
 
-                <p class="text-dark">info@perthlegaldocs.com.au</p>
-                <p class="text-dark">03 8516 5363</p>
-                <p class="text-dark">PO Box 209, Black Rock Victoria, 3193</p>
+                <p class="footer-color">info@perthlegaldocs.com.au</p>
+                <p class="footer-color">03 8516 5363</p>
+                <p class="footer-color">PO Box 209, Black Rock Victoria, 3193</p>
               </div>
 
-              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+              <div class="col-md-6 col-lg-2 col-xl-2 mx-auto mb-4">
                 <h6 class="text-uppercase fw-bold">Quick links</h6>
                 <p>
-                  <a href="#!" class="text-dark"> >Home</a>
+                  <a href="#!" class="footer-color"> >Home</a>
                 </p>
                 <p>
-                  <a href="#!" class="text-dark"> >About us</a>
+                  <a href="#!" class="footer-color"> >About us</a>
                 </p>
                 <p>
-                  <a href="#!" class="text-dark"> >Contact us</a>
+                  <a href="#!" class="footer-color"> >Contact us</a>
                 </p>
                 <p>
-                  <a href="#!" class="text-dark"> >Prices</a>
+                  <a href="#!" class="footer-color"> >Prices</a>
                 </p>
                 <p>
-                  <a href="#!" class="text-dark"> >Videos and Guides</a>
+                  <a href="#!" class="footer-color"> >Videos and Guides</a>
                 </p>
               </div>
 
-              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <div class="col-md-6 col-lg-2 col-xl-3 mx-auto mb-md-0 mb-4">
                 <h6 class="text-uppercase fw-bold">Payment Methods</h6>
                 <img
+                class="payment-img"
                   src="./images/images/Payment Methods.png"
                   alt=""
-                  width="272"
-                  height="52"
                 />
               </div>
             </div>
 
             <!-- <div class="inline">
-                <div class="in1">
+                <div class="">
                   <p>Copyright © 2022</p>
                 </div>
-                <div class="in2">
+                <div class="">
                   <p>Privacy Policy</p>
                   <p>Terms and Conditions</p>
                 </div>
-              </div> -->
-          </div>
+              </div>
+          </div> -->
         </section>
-      </footer>
+      </div>
     </div>
+
   </body>
 </html>
