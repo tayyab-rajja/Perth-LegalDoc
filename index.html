@@ -11,183 +11,320 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" type="text/css" href="styles.css" >    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="./css/styles.css" >    
 
   </head>
   <body>
 
     <!-- NAVBAR -->
-<div class="header-img">
-    <div class="main-nav pt-4">
-        <nav class="navbar p-2 navbar-expand-xl navbar-light bg-light nav-margin rounded">
-            <div class="container-fluid ">
-
-              <a class="navbar-brand" href="#">
-                <img
-                class="img-fluid"
-                  src="./images/Logos/main-logo.png"
-                  alt=""
-                height="74"
-                width="187"
-                 
-                />
-              </a>
-             
+    
+<div class="header-img ">
+  <div class="">
+    <div class="main-nav pt-4" >
+      <nav class="navbar p-2 navbar-expand-lg navbar-light bg-light grid-margin rounded">
+          <div class="container-fluid ">
+            <a class="navbar-brand" href="#">
+              <img
+              class="img-fluid logo"
+                src="./images/Logos/main-logo.png"
+                alt=""
               
-              <div class="">
-                
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                 
-                  <div class="search d-flex">
-                    <div class="icon float-left">
-                      <img
-                      class="img-fluid"
-                        src="./images/images/search.png"
-                        alt=""
-                        height="25"
-                        width="25"
-                       >
-                    </img>
-                    </div>
-                    <div class="search-input ">
-                        <input class="no-border" placeholder="Search Something"/>
-                    </div>
+              width="187"    
+              />
+            </a>
+ 
+            <div class="">
+              
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+               
+                <div class="search d-flex">
+                  <div class="icon ">
+                    <img
+                    class="img-fluid"
+                      src="./images/images/search.png"
+                      alt=""
+                      height="25"
+                      width="25"
+                     >
+                  </img>
                   </div>
-                  
-                  <div class="main-items">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                      </li>
-                      <li class="nav-item dropdown">
-                        <a
-                          class="nav-link dropdown-toggle"
-                          href="#"
-                          id="navbarDropdown"
-                          role="button"
-                          data-bs-toggle="dropdown"
-                          aria-expanded="false"
-                        >
-                          Order Documents
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                          <li><a class="dropdown-item" href="#">Action</a></li>
-                          <li><a class="dropdown-item" href="#">Another action</a></li>
-                          <li><hr class="dropdown-divider" /></li>
-                          <li>
-                            <a class="dropdown-item" href="#">Something else here</a>
-                          </li>
-                        </ul>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#"
-                          >Prices</a
-                        >
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#"
-                          >About us</a
-                        >
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#"
-                          >Contact us</a
-                        >
-                      </li>
-                    </ul>
+                  <div class="search-input ">
+                      <input class="no-border" placeholder="Search Something"/>
                   </div>
-                  
-                  <div class="">
-                    <a
-                    class="btn signup-btn button"
-                    type="submit"
+                </div>
                 
+                <div class="main-items">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a
+                        class="nav-link dropdown-toggle"
+                        href="#"
+                        id="navbarDropdown"
+                        role="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        Order Documents
+                      </a>
+                      <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><hr class="dropdown-divider" /></li>
+                        <li>
+                          <a class="dropdown-item" href="#">Something else here</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#"
+                        >Prices</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#"
+                        >About us</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#"
+                        >Contact us</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+                
+                <div class="">
+                  <a href="./SignUp/signup.html"
+                  class="btn button"
+                  type="submit"
                   >
-                    SIGN IN
+                  SIGN IN
                   </a>
-                </div>
-                </div>
               </div>
-              <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
+              </div>
             </div>
-          </nav>
+            <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          </div>
+        </nav>
+  </div>
+  </div>
+    
+
+<div class="banner-section">
+      <div class="banner-inner ">
+        
+          <span class="text-uppercase"> 
+            Australia’s #1 Business & Legal Docs PROVIDER SINCE 2010
+          </span>
+          <h1 class="mt-2 mb-2">
+            CREATE LEGAL DOCS
+          </h1>
+          <div>
+            <a class="btn button">
+              EXPLORE
+            </a>
+          </div>
+        
+       
+      </div>
+
     </div>
     
 </div>
 
-<div class="cards row justify-content-between ">
 
-    <div class="card mb-3 col-md-12" style="max-width: 400px; background-color: white; border-radius: 15px; ">
-        <div class="row g-0 mt-3">
-          <div class="col-md-4 col-xl-4 col-lg-4">
-            <img src="./images/images/Xero-logo.png" class="rounded-start card-img" alt="...">
+
+<section class="ban-card-sec grid-margin ">
+  <div class="container-fluid  ">
+    <div class="row justify-content-between">
+      <div class="card mb-3 col-4 " >
+        <div class="row g-0 p">
+          <div class="col-md-4">
+            <div class="card-img"> 
+              <img src="./images/images/Xero-logo.png" class=" img-fluid rounded-start" alt="...">  
+            </div>
           </div>
-          <div class="col-md-8 col-xl-8 ">
+          <div class="col-md-8">
             <div class="card-body">
               <h5 class="card-title">What We Do</h5>
-              <p class="card-texts">We provide quality documents at a competitive price.</p>
+              <p class="card-text">We provide quality documents at a competitive price.</p>
             </div>
           </div>
         </div>
       </div>
-
-      <div class="card mb-3" style="max-width: 400px; background-color: white; border-radius: 15px; ">
-        <div class="row g-0 mt-3">
-          <div class="col-md-4 col-xl-4 col-lg-4">
-            <img src="./images/images/Xero-logo.png" class="  card-img" alt="...">
+      <div class="card mb-3 col-4">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <div class="card-img"> 
+              <img src="./images/images/Xero-logo.png" class=" img-fluid rounded-start" alt="...">  
+            </div>
           </div>
-          <div class="col-md-8 col-xl-8 ">
+          <div class="col-md-8">
             <div class="card-body">
               <h5 class="card-title">What We Do</h5>
-              <p class="card-texts">We provide quality documents at a competitive price.</p>
+              <p class="card-text">We provide quality documents at a competitive price.</p>
+            </div>
+          </div>
+        </div>
+      </div>   
+      <div class="card mb-3 col-4">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <div class="card-img"> 
+              <img src="./images/images/Xero-logo.png" class=" img-fluid rounded-start" alt="...">  
+            </div>
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">What We Do</h5>
+              <p class="card-text">We provide quality documents at a competitive price.</p>
             </div>
           </div>
         </div>
       </div>
+    </div>
+  </div>
+</section>
 
-      <div class="card mb-3" style="max-width: 400px; background-color: white; border-radius: 15px; ">
-        <div class="row g-0 mt-3">
-          <div class="col-md-4 col-xl-4 col-lg-4">
-            <img src="./images/images/Xero-logo.png" class=" card-img" alt="...">
+<section class="">
+  <div class="container fluid">
+    <div class="row">
+      <div class="col-6 third-sec">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <div class=""> 
+              <img src="./images/images/number-one.png" class=" img-fluid rounded-start" alt="...">  
+            </div>
           </div>
-          <div class="col-md-8 col-xl-8 ">
-            <div class="card-body">
-              <h5 class="card-title">What We Do</h5>
-              <p class="card-texts">We provide quality documents at a competitive price.</p>
+          <div class="col-md-8">
+            <div class="third-sec-inner">
+              <p >Simply Login Or Register To Begin Using Our Service.</p>
+            </div>
+          </div>
+        </div>
+        <div class="row g-0">
+          <div class="col-md-4">
+            <div class=""> 
+              <img src="./images/images/number-2.png" class=" img-fluid rounded-start" alt="...">  
+            </div>
+          </div>
+          <div class="col-md-8">
+            <div class="third-sec-inner">
+              <p >Select Your Preferred Document.</p>
+            </div>
+          </div>
+        </div>
+        <div class="row g-0">
+          <div class="col-md-4">
+            <div class=""> 
+              <img src="./images/images/number-3.png" class=" img-fluid rounded-start" alt="...">  
+            </div>
+          </div>
+          <div class="col-md-8">
+            <div class="third-sec-inner">
+              <p >Enter Payment Details In The Secure Customer Checkout.</p>
             </div>
           </div>
         </div>
       </div>
+      <div class="col-6">
+        <div>
+          <img src="./images/images/home-img.png" class="img-fluid" alt="..." />
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<Section class="number-sec">
+  <div class="container-fluid">
+    <div class="row " >
+      <div class="col-4 inner-num-sec">
+        <h1>2,490+</h1>
+        <span>REGISTERED USERS</span>
+      </div>
+      <div class="col-4 inner-num-sec">
+        <h1>10,220+</h1>
+        <span>COMPANY REGISTRATIONS</span>
+      </div>
+      <div class="col-4 inner-num-sec">
+        <h1>24,552+</h1>
+        <span>SMSF SETUPS</span>
+      </div>
+    </div>
+  </div>
+</Section>
+
+<Section class="slider grid-margin">
+  <div class="container fluid">
+    <div class="row">
+      <div class="col-10">
+        <div class=" slider-header">
+          <h3>
+            Commonly Used Documents
+          </h3>
+        </div>
+      </div>
+      <div class="col-2">
+        <div >
+          <a href="" class="btn button" >Explore More</a>
+        </div>
+      </div>
+    </div>
+
+  
+
+  </div>
+</Section>
+
+
+<Section class="number-sec">
+  <div class="container-fluid">
+    <div class="row " >
+      <div class="col-6">
+          <div class="d-flex  justify-content-center">
+            <div class="circle">
+              <img src="./images/images/icon-paper.png " class="img-fluid blue-sec-img" alt="...">
+            </div>
+            <div class="blue-sec">
+              <span> Our Documents Have Been <br> Vetted By TMC Legal </span>
+            </div>
+          </div> 
+      </div>
+      <div class="col-6">
+        <div class="d-flex justify-content-center">
+          <div class="circle">
+            <img src="./images/images/icon-dollar.png" class="img-fluid" alt="...">
+          </div>
+          <div class="blue-sec">
+            <span>Perth Legal Docs Has A <br> Money Back Guarantee</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</Section>
+
+
+    
       
-</div>
-
-    <h1>WEB SECTIONS</h1>
-    <h1>WEB SECTIONS</h1>
-    <h1>WEB SECTIONS</h1>
-    <h1>WEB SECTIONS</h1>
-    <h1>WEB SECTIONS</h1>
-    <h1>WEB SECTIONS</h1>
-    <h1>WEB SECTIONS</h1>
-    <h1>WEB SECTIONS</h1>
-    <h1>WEB SECTIONS</h1>
-    <h1>WEB SECTIONS</h1>
-
-    <!-- FOOTER -->
-
-    <div class="">
-      <div class="text-center text-lg-start text-dark mt-5">
         
-        <section class="">
+<section class="">
           <div class="container text-center text-md-start mt-5">
             <!-- Grid row -->
             <div class="row">
@@ -205,7 +342,7 @@
                 </p>
               </div>
 
-              <div class="col-md-6 col-lg-4 col-xl-2 mx-auto mb-4">
+              <div class="col-md-6 col-lg-4 col-xl-3 mx-auto mb-4">
                 <h6 class="text-uppercase fw-bold">Get in Touch</h6>
 
                 <p class="footer-color">info@perthlegaldocs.com.au</p>
@@ -213,7 +350,7 @@
                 <p class="footer-color">PO Box 209, Black Rock Victoria, 3193</p>
               </div>
 
-              <div class="col-md-6 col-lg-2 col-xl-2 mx-auto mb-4">
+              <div class="col-md-6 col-lg-2 col-xl-3 mx-auto mb-4">
                 <h6 class="text-uppercase fw-bold">Quick links</h6>
                 <p>
                   <a href="#!" class="footer-color"> >Home</a>
@@ -252,9 +389,9 @@
                 </div>
               </div>
           </div> -->
-        </section>
-      </div>
-    </div>
+</section>
+     
+  
 
   </body>
 </html>

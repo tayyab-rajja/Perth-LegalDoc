@@ -1,0 +1,7 @@
+.signup-img{
+    background-image:url('../images/images/signup.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 1000px;
+}
