@@ -1,7 +1,6 @@
-body {
-  font-family: "", sans-serif;
+body{
+  font-family: 'poppins';
 }
-
 /* NAVBAR */
 
 .grid-margin {
@@ -225,6 +224,10 @@ body {
   height: 70px;
   width: 60px;
   justify-content: flex-end;
+}
+.img-slider .card img{
+  height: 200px;
+  max-width: 100%;
 }
 
 /* // SLIDER */
@@ -600,7 +603,6 @@ body {
 
   .ban-card-sec .card {
     max-width: 220px;
-    padding: 4px 4px;
   }
   .ban-card-sec .card .card-title {
     font-size: 14px;
@@ -637,6 +639,13 @@ body {
   .inner-slider .card-body .button {
     padding: 6px 25px;
   }
+  .slider .button {
+    padding: 8px 14px 8px 14px;
+    font-size: 14px;
+  }
+  .slider .exp-btn{
+    text-align: right;
+  }
   /* .circle {
     height: 80px;
     width: 80px;
@@ -659,11 +668,6 @@ body {
   }
   .Newsletter-sec .new-input {
     padding: 8px 22px;
-  }
-  .slider .button {
-    padding: 8px 10px 8px 10px;
-    font-size: 10px;
-    font-weight: bold;
   }
   .inner-slider .card .card-text {
     font-size: 16px;
@@ -698,9 +702,82 @@ body {
   .header-img {
     height: 350px;
   }
+
+.banner-section {
+    padding: 96px 0px;
+}
+.banner-inner h1 {
+  font-size: 28px;
+}
+.banner-inner span {
+  font-size: 12px;
+}
+.banner-inner .button {
+  padding: 4px 24px 4px 24px;
+}
+.ban-card-sec .card {
+  max-width: 400px;
+  margin-top: 2%;
+  margin-right: 0px;
+}
+.ban-card-sec .card-img {
+  text-align: center;
+}
+.ban-card-sec .card .card-text {
+  font-size: 14px;
+}
+.ban-card-sec .card .card-title {
+  font-size: 16px;
+}
+.slider .slider-main {
+  text-align: center;
+}
+.third-sec-inner p {
+  text-align: center;
+}
+.inner-num-sec span {
+  font-size: 12px;
+}
+.inner-num-sec h1 {
+  font-size: 24px;
+}
+.slider-header h3 {
+  font-size: 28px;
+  margin-bottom: 12px;
+  margin-left: 0px;
+}
+.slider .button {
+  padding: 8px 20px 8px 20px;
+  font-size: 14px;
+  
+}
+.Newsletter-sec .new-text h2 {
+  font-size: 28px;
+}
+.Newsletter-sec .new-text p {
+  font-size: 14px;
+}
+.Newsletter-sec .new-input input {
+  width: 200px;
+  font-size: 13px;
+  font-size: bold;
+}
+.Newsletter-sec .button {
+  margin-left: -50px;
+  padding: 8px 22px 6px 22px;
+}
+.Footer .social-icons{
+justify-content: center;
+}
+.slider .exp-btn {
+  text-align: center;
+}
+.Footer h6{
+  margin-top: 10px;
+}
 }
 
-@media (max-width: 575px) {
+@media (max-width: 576px) {
   .logo {
     width: 90px;
   }
@@ -710,4 +787,22 @@ body {
   .header-img {
     height: 250px;
   }
+  .banner-section {
+    padding: 30px 0px;
+}
+.banner-inner h1 {
+  font-size: 22px;
+}
+.banner-inner span {
+  font-size: 10px;
+}
+.banner-inner .button {
+  padding: 2px 18px 2px 18px;
+}
+.inner-num-sec h1 {
+  font-size: 20px;
+}
+.slider-header h3 {
+  font-size: 24px;
+}
 }
