@@ -28,6 +28,7 @@ jQuery('.card-slider').slick({
   const openingDuration = 600; //ms
   const closingDuration = 600; //ms
   const timingFunction = 'cubic-bezier(.76,.01,.65,1.38)';
+
   
   var Scrollbar = window.Scrollbar;
   Scrollbar.init(document.querySelector('.modal__scroll-area'));
@@ -100,3 +101,4 @@ jQuery('.card-slider').slick({
       animation.cancel();
     };
   });
+
