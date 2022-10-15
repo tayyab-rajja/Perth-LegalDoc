@@ -197,9 +197,10 @@ body {
   padding: 20px;
   border-radius: 10px;
 }
-.inner-slider .card img {
+
+.inner-slider .card .slider-img {
   border-radius: 10px;
-  height: 200px;
+  height: 100px;
 }
 .inner-slider .card .card-body {
   padding: 20px 0px;
@@ -218,7 +219,7 @@ body {
 }
 
 .inner-slider .tech-card-text p {
-  font-size: 16px;
+  font-size: 12px;
 }
 .inner-slider .tech-card-img img {
   height: 70px;
@@ -254,6 +255,14 @@ body {
 .Footer-last .footer-last-inner span {
   margin-right: 20px;
 }
+.Footer p{
+  font-size: 18px;
+  font-weight: bold;
+}
+.Footer h6{
+  font-size: 25px;
+}
+
 
 .payment-img {
   width: 250px;
@@ -436,6 +445,12 @@ body {
   .inner-slider .tech-card-text p {
     font-size: 14px;
   }
+  .Footer p{
+    font-size: 16px;
+  }
+  .Footer h6{
+    font-size: 22px;
+  }
 }
 
 @media (max-width: 1199px) {
@@ -545,10 +560,19 @@ body {
   }
   .third-sec-inner p {
     font-size: 18px;
-}
-.third-sec img {
-  width: 100px;
-}
+  }
+  .third-sec img {
+    width: 100px;
+  }
+  .Newsletter-card .card .card-title {
+    padding-left: 20px;
+  }
+  .Footer p{
+    font-size: 14px;
+  }
+  .Footer h6{
+    font-size: 18px;
+  }
 }
 
 @media (max-width: 991px) {
@@ -582,31 +606,51 @@ body {
     font-size: 14px;
     font-weight: bold;
   }
-  .card-image {
-    width: 80px;
+  .ban-card-sec .card .card-image {
+    width: 60px;
   }
   .ban-card-sec .card .card-text {
     font-size: 12px;
   }
+  .ban-card-sec .card .card-body {
+    padding: 8px 0px 8px 4px;
+  }
 
   .third-sec img {
-    width: 100px;
+    width: 86px;
   }
   .third-sec-inner p {
-    font-size: 16px;
+    font-size: 14px;
+  }
+  .number-sec {
+    padding: 16px 0px;
   }
   .inner-num-sec h1 {
-    font-size: 30px;
+    font-size: 28px;
   }
   .inner-slider .card .card-title {
     font-size: 24px;
   }
   .slider-header h3 {
-    font-size: 28px;
+    font-size: 26px;
   }
   .inner-slider .card-body .button {
     padding: 6px 25px;
   }
+  /* .circle {
+    height: 80px;
+    width: 80px;
+  }
+  .circle img {
+    max-width: 80px;
+    height: 80px;
+    margin: 5px;
+  }
+  .circle .blue-sec-img {
+    max-width: 70px;
+    height: 70px;
+    margin: 4px 0px 0px 10px;
+  } */
   .Newsletter-sec .new-text h2 {
     font-size: 36px;
   }
@@ -623,6 +667,22 @@ body {
   }
   .inner-slider .card .card-text {
     font-size: 16px;
+  }
+  .Newsletter-sec .new-text h2 {
+    font-size: 34px;
+}
+.Newsletter-sec .new-text p {
+  font-size: 16px;
+}
+.Newsletter-sec .new-input {
+  padding: 7px 10px;
+}
+.Newsletter-sec .new-input input {
+
+  width: 250px;
+}
+  .Newsletter-card .card {
+    padding: 6px 20px;
   }
 }
 
