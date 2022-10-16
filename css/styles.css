@@ -1,6 +1,7 @@
 body{
   font-family: 'poppins';
 }
+
 /* NAVBAR */
 
 .grid-margin {
@@ -127,11 +128,6 @@ body{
   font-weight: 500;
   margin-top: 25px;
 }
-/* .third-sec p{
-  height: 100px;
-  line-height: 100px;
-  text-align: center;
-} */
 
 .number-sec {
   background: rgb(25 166 219 / 0.35);
@@ -171,7 +167,7 @@ body{
 }
 .blue-sec {
   color: #404041;
-  font-size: 30;
+  font-size: 20px;
   font-weight: bold;
   padding: 20px;
 }
@@ -323,7 +319,6 @@ body{
 .Newsletter-sec .new-input {
   padding: 10px 30px;
   background: rgba(44, 196, 237, 0.4);
-  /* background-color: #009cdf; */
   border-radius: 30px;
 }
 .Newsletter-sec .new-input input {
@@ -646,20 +641,12 @@ body{
   .slider .exp-btn{
     text-align: right;
   }
-  /* .circle {
-    height: 80px;
-    width: 80px;
-  }
-  .circle img {
-    max-width: 80px;
-    height: 80px;
-    margin: 5px;
-  }
-  .circle .blue-sec-img {
-    max-width: 70px;
-    height: 70px;
-    margin: 4px 0px 0px 10px;
-  } */
+  .blue-sec {
+    color: #404041;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 16px;
+}
   .Newsletter-sec .new-text h2 {
     font-size: 36px;
   }
@@ -751,6 +738,9 @@ body{
   font-size: 14px;
   
 }
+.blue-sec {
+  font-size: 14px;
+}
 .Newsletter-sec .new-text h2 {
   font-size: 28px;
 }
@@ -805,4 +795,5 @@ justify-content: center;
 .slider-header h3 {
   font-size: 24px;
 }
+
 }
