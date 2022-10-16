@@ -795,5 +795,7 @@ justify-content: center;
 .slider-header h3 {
   font-size: 24px;
 }
-
+.Newsletter-sec .new-input input {
+  font-size: 11px;
+}
 }
