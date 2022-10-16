@@ -1,5 +1,5 @@
-body{
-  font-family: 'poppins';
+body {
+  font-family: "poppins";
 }
 
 /* NAVBAR */
@@ -7,7 +7,7 @@ body{
 .grid-margin {
   margin-left: 5%;
   margin-right: 5%;
-  background-color: rgb(255, 255, 255);
+  /* background-color: rgb(255, 255, 255); */
 }
 .nav-item {
   padding: 0 5px 0 5px;
@@ -19,6 +19,10 @@ body{
   font-size: 20px;
   font-weight: 500;
   color: #2b2b2b;
+}
+.nav-item a:hover {
+  background-color: #0caaed;
+  color: #0caaed;
 }
 .header-img {
   background: rgba(0, 0, 0, 0.5) url("../images/images/background.jpg");
@@ -42,6 +46,8 @@ body{
 .no-border {
   border: none;
   background: transparent;
+  resize: none;
+  outline: none;
 }
 .search {
   background-color: #2cc4ed;
@@ -86,7 +92,7 @@ body{
 }
 
 .ban-card-sec .card {
-  margin-top: -7%;
+  margin-top: 0%;
   border-radius: 15px;
   background-color: white;
   padding: 25px 15px;
@@ -109,14 +115,16 @@ body{
   margin: 10px;
 }
 .ban-card-sec {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  position: absolute;
+  content: "";
+  top: 622px;
+  left: 0;
+  width: 100%;
+}
+.video-player {
+  padding: 125px 0px 50px 0px;
 }
 
-.third-sec {
-  padding: 0px 15px;
-}
 .third-sec img {
   display: block;
   margin-left: auto;
@@ -126,16 +134,13 @@ body{
 .third-sec-inner p {
   font-size: 22px;
   font-weight: 500;
-  margin-top: 25px;
 }
 
 .number-sec {
   background: rgb(25 166 219 / 0.35);
   padding: 20px 0px;
 }
-.inner-num-sec {
-  text-align: center;
-}
+
 .inner-num-sec h1 {
   color: #009cdf;
   font-weight: bold;
@@ -170,8 +175,13 @@ body{
   font-size: 20px;
   font-weight: bold;
   padding: 20px;
+  display: flex;
+  align-items: center;
 }
 
+.slider .exp-btn {
+  text-align: end;
+}
 .slider {
   padding: 40px 0px;
 }
@@ -182,7 +192,6 @@ body{
 .slider-header h3 {
   font-size: 40px;
   font-weight: bold;
-  margin-left: 30px;
 }
 .slider .button {
   padding: 10px 28px 10px 28px;
@@ -221,7 +230,7 @@ body{
   width: 60px;
   justify-content: flex-end;
 }
-.img-slider .card img{
+.img-slider .card img {
   height: 200px;
   max-width: 100%;
 }
@@ -254,14 +263,13 @@ body{
 .Footer-last .footer-last-inner span {
   margin-right: 20px;
 }
-.Footer p{
+.Footer p {
   font-size: 18px;
   font-weight: bold;
 }
-.Footer h6{
+.Footer h6 {
   font-size: 25px;
 }
-
 
 .payment-img {
   width: 250px;
@@ -285,8 +293,15 @@ body{
 
 /* newsletter card */
 .Newsletter-card {
-  margin-top: 7%;
-  margin-bottom: -7%;
+  position: absolute;
+  content: "";
+  top: -77px;
+  left: 0;
+  width: 100%;
+} 
+.Newsletter-card {
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .Newsletter-card .circle {
@@ -317,14 +332,19 @@ body{
   font-weight: bold;
 }
 .Newsletter-sec .new-input {
+  display: flex;
+  align-items: center;
   padding: 10px 30px;
   background: rgba(44, 196, 237, 0.4);
   border-radius: 30px;
 }
+
 .Newsletter-sec .new-input input {
   background: transparent;
   border: none;
   width: 300px;
+  resize: none;
+  outline: none;
 }
 .Newsletter-sec .new-input input::placeholder {
   color: white;
@@ -338,6 +358,9 @@ body{
 /* MEDIA QUERIES */
 
 @media (max-width: 1886px) {
+  .nav-item a:hover {
+    color: #009cdf;
+  }
   .nav-item {
     padding: 0 4px 0 4px;
   }
@@ -349,6 +372,7 @@ body{
     font-weight: 500;
     color: #2b2b2b;
   }
+
   .button {
     padding: 8px 28px 8px 28px;
   }
@@ -362,6 +386,9 @@ body{
 }
 
 @media (max-width: 1576px) {
+  .nav-item a:hover {
+    color: #009cdf;
+  }
   .logo {
     width: 150px;
   }
@@ -385,6 +412,9 @@ body{
 }
 
 @media (max-width: 1399px) {
+  .nav-item a:hover {
+    color: #009cdf;
+  }
   .logo {
     width: 130px;
   }
@@ -443,15 +473,18 @@ body{
   .inner-slider .tech-card-text p {
     font-size: 14px;
   }
-  .Footer p{
+  .Footer p {
     font-size: 16px;
   }
-  .Footer h6{
+  .Footer h6 {
     font-size: 22px;
   }
 }
 
 @media (max-width: 1199px) {
+  .nav-item a:hover {
+    color: #009cdf;
+  }
   /* .logo {
     width: 140px;
     height: 40px;
@@ -477,7 +510,7 @@ body{
   }
   .button {
     padding: 6px 15px 6px 15px;
-    font-size: 13px;
+    font-size: 16px;
   }
   .no-border {
     width: 95px;
@@ -565,10 +598,10 @@ body{
   .Newsletter-card .card .card-title {
     padding-left: 20px;
   }
-  .Footer p{
+  .Footer p {
     font-size: 14px;
   }
-  .Footer h6{
+  .Footer h6 {
     font-size: 18px;
   }
 }
@@ -638,7 +671,7 @@ body{
     padding: 8px 14px 8px 14px;
     font-size: 14px;
   }
-  .slider .exp-btn{
+  .slider .exp-btn {
     text-align: right;
   }
   .blue-sec {
@@ -646,7 +679,7 @@ body{
     font-size: 16px;
     font-weight: bold;
     padding: 16px;
-}
+  }
   .Newsletter-sec .new-text h2 {
     font-size: 36px;
   }
@@ -661,19 +694,22 @@ body{
   }
   .Newsletter-sec .new-text h2 {
     font-size: 34px;
-}
-.Newsletter-sec .new-text p {
-  font-size: 16px;
-}
-.Newsletter-sec .new-input {
-  padding: 7px 10px;
-}
-.Newsletter-sec .new-input input {
-
-  width: 250px;
-}
+  }
+  .Newsletter-sec .new-text p {
+    font-size: 16px;
+  }
+  .Newsletter-sec .new-input {
+    padding: 7px 10px;
+  }
+  .Newsletter-sec .new-input input {
+    width: 250px;
+  }
   .Newsletter-card .card {
     padding: 6px 20px;
+  }
+  .button {
+    padding: 6px 15px 6px 15px;
+    font-size: 13px;
   }
 }
 
@@ -690,81 +726,80 @@ body{
     height: 350px;
   }
 
-.banner-section {
+  .banner-section {
     padding: 96px 0px;
-}
-.banner-inner h1 {
-  font-size: 28px;
-}
-.banner-inner span {
-  font-size: 12px;
-}
-.banner-inner .button {
-  padding: 4px 24px 4px 24px;
-}
-.ban-card-sec .card {
-  max-width: 400px;
-  margin-top: 2%;
-  margin-right: 0px;
-}
-.ban-card-sec .card-img {
-  text-align: center;
-}
-.ban-card-sec .card .card-text {
-  font-size: 14px;
-}
-.ban-card-sec .card .card-title {
-  font-size: 16px;
-}
-.slider .slider-main {
-  text-align: center;
-}
-.third-sec-inner p {
-  text-align: center;
-}
-.inner-num-sec span {
-  font-size: 12px;
-}
-.inner-num-sec h1 {
-  font-size: 24px;
-}
-.slider-header h3 {
-  font-size: 28px;
-  margin-bottom: 12px;
-  margin-left: 0px;
-}
-.slider .button {
-  padding: 8px 20px 8px 20px;
-  font-size: 14px;
-  
-}
-.blue-sec {
-  font-size: 14px;
-}
-.Newsletter-sec .new-text h2 {
-  font-size: 28px;
-}
-.Newsletter-sec .new-text p {
-  font-size: 14px;
-}
-.Newsletter-sec .new-input input {
-  width: 200px;
-  font-size: 13px;
-  font-size: bold;
-}
-.Newsletter-sec .button {
-  margin-left: -50px;
-  padding: 8px 22px 6px 22px;
-}
-.Footer .social-icons{
-justify-content: center;
-}
-.slider .exp-btn {
-  text-align: center;
-}
-.Footer h6{
-  margin-top: 10px;
-}
+  }
+  .banner-inner h1 {
+    font-size: 28px;
+  }
+  .banner-inner span {
+    font-size: 12px;
+  }
+  .banner-inner .button {
+    padding: 4px 24px 4px 24px;
+  }
+  .ban-card-sec .card {
+    max-width: 400px;
+    margin-top: 2%;
+    margin-right: 0px;
+  }
+  .ban-card-sec .card-img {
+    text-align: center;
+  }
+  .ban-card-sec .card .card-text {
+    font-size: 14px;
+  }
+  .ban-card-sec .card .card-title {
+    font-size: 16px;
+  }
+  .slider .slider-main {
+    text-align: center;
+  }
+  .third-sec-inner p {
+    text-align: center;
+  }
+  .inner-num-sec span {
+    font-size: 12px;
+  }
+  .inner-num-sec h1 {
+    font-size: 24px;
+  }
+  .slider-header h3 {
+    font-size: 28px;
+    margin-bottom: 12px;
+    margin-left: 0px;
+  }
+  .slider .button {
+    padding: 8px 20px 8px 20px;
+    font-size: 14px;
+  }
+  .blue-sec {
+    font-size: 14px;
+  }
+  .Newsletter-sec .new-text h2 {
+    font-size: 28px;
+  }
+  .Newsletter-sec .new-text p {
+    font-size: 14px;
+  }
+  .Newsletter-sec .new-input input {
+    width: 200px;
+    font-size: 12px;
+    font-size: bold;
+  }
+  .Newsletter-sec .button {
+    margin-left: -50px;
+    padding: 8px 22px 6px 22px;
+  }
+  .Footer .social-icons {
+    justify-content: center;
+  }
+  .slider .exp-btn {
+    text-align: center;
+  }
+  .Footer h6 {
+    margin-top: 10px;
+  }
 }
 
 @media (max-width: 576px) {
@@ -779,23 +814,23 @@ justify-content: center;
   }
   .banner-section {
     padding: 30px 0px;
-}
-.banner-inner h1 {
-  font-size: 22px;
-}
-.banner-inner span {
-  font-size: 10px;
-}
-.banner-inner .button {
-  padding: 2px 18px 2px 18px;
-}
-.inner-num-sec h1 {
-  font-size: 20px;
-}
-.slider-header h3 {
-  font-size: 24px;
-}
-.Newsletter-sec .new-input input {
-  font-size: 11px;
-}
+  }
+  .banner-inner h1 {
+    font-size: 22px;
+  }
+  .banner-inner span {
+    font-size: 10px;
+  }
+  .banner-inner .button {
+    padding: 2px 18px 2px 18px;
+  }
+  .inner-num-sec h1 {
+    font-size: 20px;
+  }
+  .slider-header h3 {
+    font-size: 24px;
+  }
+  .Newsletter-sec .new-input input {
+    font-size: 11px;
+  }
 }
