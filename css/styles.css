@@ -2,6 +2,8 @@ body {
   font-family: "poppins";
 }
 
+/* NAVBAR */
+
 .nav-mega {
   width: 100%;
 }
@@ -11,20 +13,17 @@ body {
 .dropdown-menu h5 {
   font-weight: bold;
 }
-.dropdown-menu h4{
+.dropdown-menu h4 {
   font-weight: bold;
   font-size: 14px;
 }
 .vl {
   border-left: 2px solid darkgray;
-  /* color: inherit;
-  background-color: currentColor;
-  
-  opacity: 0.25; */
 }
-.para {
-  font-weight: 12px;
+.dropdown-menu p {
+  font-size: 15px;
 }
+
 .dropdown-menu.mega-menu {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -43,6 +42,7 @@ body {
 }
 .dropdown-menu.mega-menu > li {
   padding: 20px;
+  list-style: circle;
 }
 .dropdown-menu.mega-menu .media-list .media {
   padding: 10px;
@@ -51,8 +51,9 @@ body {
 .dropdown-menu.mega-menu .media-list .media-heading {
   font-size: 16px;
 }
-
-/* NAVBAR */
+.media-body ul li a{
+  padding: 0px;
+}
 
 .grid-margin {
   margin-left: 5%;
@@ -393,6 +394,49 @@ body {
   width: 85px;
 }
 /* Newsletter-sec end */
+
+/* CONTACT US PAGE */
+
+.contact-form {
+  border-radius: 15px;
+  padding: 15px;
+}
+.banner-section-con {
+  padding: 148px 0px;
+}
+.contact-main .card {
+  padding: 30px 20px;
+  border-radius: 15px;
+}
+.contact-main .card-title{
+  font-weight: bold;
+  font-size: 18px;
+}
+.contact-main .card-body{
+  font-weight: bold;
+  font-size: 16px;
+}
+.contact-input input{
+  margin-right: 10px;
+  padding: 16px;
+}
+.contact-input input:last-child{
+  margin-right: 0px;
+}
+.contact-form input{
+  padding: 16px;
+}
+.map{
+  padding-left: 20px;
+}
+
+.contact-header {
+  background: rgba(0, 0, 0, 0.5) url("../images/contact-header.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  background-blend-mode: darken;
+}
 
 /* MEDIA QUERIES */
 
