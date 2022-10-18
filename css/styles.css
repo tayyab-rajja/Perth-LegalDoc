@@ -2,12 +2,28 @@ body {
   font-family: "poppins";
 }
 
-
 .nav-mega {
   width: 100%;
 }
 .dropdown {
   position: static;
+}
+.dropdown-menu h5 {
+  font-weight: bold;
+}
+.dropdown-menu h4{
+  font-weight: bold;
+  font-size: 14px;
+}
+.vl {
+  border-left: 2px solid darkgray;
+  /* color: inherit;
+  background-color: currentColor;
+  
+  opacity: 0.25; */
+}
+.para {
+  font-weight: 12px;
 }
 .dropdown-menu.mega-menu {
   -moz-box-sizing: border-box;
@@ -45,7 +61,7 @@ body {
 .slider-margin {
   margin: 0px 40px;
 }
-.slider-margin1{
+.slider-margin1 {
   margin: 0px 40px;
 }
 .grid-margin-blue {
@@ -61,7 +77,7 @@ body {
 .nav-item a {
   font-size: 16px;
   font-weight: 500;
-  color: #2B2B2B;
+  color: #2b2b2b;
   padding-right: 0.5rem;
   padding-left: 0.5rem;
   text-decoration: none;
@@ -69,7 +85,6 @@ body {
 .nav-item a:hover {
   color: #0caaed;
   font-weight: bold;
-
 }
 .header-img {
   background: rgba(0, 0, 0, 0.5) url("../images/background.jpg");
@@ -476,6 +491,9 @@ body {
   .search-input input::placeholder {
     font-size: 14px;
   }
+  .dropdown-menu p {
+    font-weight: 14px;
+  }
   .banner-section {
     padding: 190px 0px;
   }
@@ -557,6 +575,9 @@ body {
   }
   .nav-item a {
     font-size: 12px;
+  }
+  .dropdown-menu p {
+    font-weight: 14px;
   }
   .button {
     padding: 6px 15px 6px 15px;
@@ -838,7 +859,7 @@ body {
   .slider-margin {
     margin: 0px 40px 206px 40px;
   }
-  .slider-margin1{
+  .slider-margin1 {
     margin: 0px 40px;
   }
   .slider .slider-main {
@@ -881,7 +902,7 @@ body {
   }
   .Newsletter-sec {
     padding: 70px 0px 70px 0px;
-}
+  }
   .Newsletter-sec .button {
     margin-left: -50px;
     padding: 8px 22px 6px 22px;
@@ -933,7 +954,7 @@ body {
   }
   .Newsletter-card {
     top: -288px;
-}
+  }
   .blue-sec-img {
     width: 74px;
   }
@@ -942,6 +963,5 @@ body {
   }
   .video-player {
     padding: 375px 0px 10px 0px;
-}
-
+  }
 }
