@@ -884,6 +884,24 @@ body {
 }
 
 @media (max-width: 991px) {
+  .search {
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-top: 18px;
+  }
+  .main-img .navbar-con {
+    position: absolute;
+    top: 100%;
+    background: #fff;
+    border-radius: 0.25rem;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    z-index: 1;
+  }
+  .header-img .navbar-con .button{
+    margin-bottom: 18px;
+  }
   .logo {
     width: 130px;
     height: 40px;
