@@ -21,7 +21,7 @@ body {
   border-left: 2px solid darkgray;
 }
 .dropdown-menu p {
-  font-size: 15px;
+  font-size: 14px;
 }
 
 .dropdown-menu.mega-menu {
@@ -51,8 +51,9 @@ body {
 .dropdown-menu.mega-menu .media-list .media-heading {
   font-size: 16px;
 }
-.media-body ul li a{
+.media-body ul li a {
   padding: 0px;
+  font-size: 14px;
 }
 
 .grid-margin {
@@ -150,6 +151,11 @@ body {
   color: #2cc4ed;
   font-size: 70px;
 }
+.banner-inner-sub h1 {
+  font-weight: bold;
+  color: #2cc4ed;
+  font-size: 70px;
+}
 .banner-inner .button {
   padding: 8px 40px 8px 40px;
 }
@@ -238,7 +244,7 @@ body {
   margin-bottom: 20px;
 }
 .slider-header h3 {
-  font-size: 40px;
+  font-size: 32px;
   font-weight: bold;
 }
 .slider .button {
@@ -408,29 +414,29 @@ body {
   padding: 30px 20px;
   border-radius: 15px;
 }
-.contact-main .card-title{
+.contact-main .card-title {
   font-weight: bold;
   font-size: 18px;
 }
-.contact-main h5{
+.contact-main h5 {
   font-weight: bold;
   font-size: 16px;
 }
-.contact-main .card-body{
+.contact-main .card-body {
   font-weight: bold;
   font-size: 16px;
 }
-.contact-input input{
+.contact-input input {
   margin-right: 10px;
   padding: 16px;
 }
-.contact-input input:last-child{
+.contact-input input:last-child {
   margin-right: 0px;
 }
-.contact-form input{
+.contact-form input {
   padding: 16px;
 }
-.map{
+.map {
   padding-left: 20px;
 }
 
@@ -442,7 +448,7 @@ body {
   background-blend-mode: darken;
 }
 
-/* ABOUT US */
+/* ABOUT US PAGE */
 
 .about-header {
   background: rgba(0, 0, 0, 0.5) url("../images/about-header.jpg");
@@ -451,38 +457,92 @@ body {
   width: 100%;
   background-blend-mode: darken;
 }
-.banner-section-about {
-  padding: 148px 0px;
+.about-main {
+  padding: 0px 60px 0px 60px;
 }
 .about-text {
   margin-top: 40px;
 }
-.about-text h5{
+.about-text h5 {
   font-weight: bold;
 }
-.about-team{
+.about-team {
   margin: 40px 0px;
 }
-.about-team h5{
+.about-team h5 {
   font-size: 30px;
-  color: #2CC4ED;
+  color: #2cc4ed;
   font-weight: bold;
   padding: 10px 0px;
 }
-.about-team .card{
+.about-team .card {
   margin-right: 26px;
   margin-left: 8px;
 }
-.about-team .card:last-child{
+.about-team .card:last-child {
   margin-right: 8px;
   margin-left: 0px;
 }
-.about-team .card p{
+.about-team .card p {
   font-weight: bold;
   font-size: 26px;
 }
 
+/* PRICE LIST PAGE */
 
+.price-blue-sec {
+  margin: 40px 0px;
+  background-color: #abddef;
+}
+
+.price-blue-sec-inner {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 60px;
+}
+.price-blue-sec-inner h5 {
+  font-weight: bold;
+  font-size: 24px;
+  margin-left: -10px;
+}
+
+.price-header {
+  background: rgba(0, 0, 0, 0.5) url("../images/about-header.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  background-blend-mode: darken;
+}
+.price-text {
+  padding: 0px 60px 0px 60px;
+}
+.price-text .price-text-inner h5 {
+  font-weight: bold;
+  color: #2cc4ed;
+  font-size: 24px;
+  margin-left: -10px;
+}
+.price-text-inner p {
+  font-size: 18px;
+}
+
+/* XERO INTEGRATION PAGE */
+.xero-header {
+  background: rgba(0, 0, 0, 0.5) url("../images/xero-header.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  background-blend-mode: darken;
+}
+.xero-main {
+  padding: 0px 60px 0px 60px;
+}
+.xero-text {
+  margin-top: 40px;
+}
+.xero-text h5 {
+  font-weight: bold;
+}
 
 /* MEDIA QUERIES */
 
@@ -637,6 +697,18 @@ body {
   .Footer h6 {
     font-size: 22px;
   }
+  .price-text .price-text-inner h5 {
+    font-size: 22px;
+  }
+  .price-text-inner p {
+    font-size: 16px;
+  }
+  .price-blue-sec-inner h5 {
+    font-size: 22px;
+  }
+  .banner-section-con {
+    padding: 120px 0px;
+  }
 }
 
 @media (max-width: 1199px) {
@@ -719,7 +791,7 @@ body {
     width: 90px;
   }
   .slider-header h3 {
-    font-size: 34px;
+    font-size: 30px;
   }
   .slider .button {
     padding: 10px 16px 10px 16px;
@@ -775,6 +847,39 @@ body {
   }
   .Footer h6 {
     font-size: 18px;
+  }
+  .about-main {
+    padding: 0px 40px 0px 40px;
+  }
+  .about-main .about-text p {
+    font-size: 14px;
+  }
+  .about-team h5 {
+    font-size: 28px;
+  }
+  .xero-main {
+    padding: 0px 40px 0px 40px;
+  }
+  .xero-main .xero-text p {
+    font-size: 14px;
+  }
+  .price-text .price-text-inner h5 {
+    font-size: 20px;
+  }
+  .price-text-inner p {
+    font-size: 16px;
+  }
+  .price-text {
+    padding: 0px 40px 0px 40px;
+  }
+  .price-blue-sec-inner {
+    padding: 16px 40px;
+  }
+  .price-blue-sec-inner h5 {
+    font-size: 20px;
+  }
+  .banner-section-con {
+    padding: 90px 0px;
   }
 }
 
@@ -896,6 +1001,48 @@ body {
     padding: 6px 15px 6px 15px;
     font-size: 13px;
   }
+  .about-main .about-text p {
+    font-size: 13px;
+  }
+  .about-main .about-text h5 {
+    font-size: 16px;
+  }
+  .about-main {
+    padding: 0px 20px 0px 20px;
+  }
+  .xero-main .xero-text h5 {
+    font-size: 16px;
+  }
+  .xero-main .xero-text p {
+    font-size: 13px;
+  }
+  .xero-main {
+    padding: 0px 20px 0px 20px;
+  }
+  .xero-video iframe {
+    height: 350px;
+  }
+  .price-text .price-text-inner h5 {
+    font-size: 18px;
+  }
+  .price-text-inner p {
+    font-size: 15px;
+  }
+  .price-text {
+    padding: 0px 20px 0px 20px;
+  }
+  .price-blue-sec {
+    margin: 30px 0px;
+  }
+  .price-blue-sec-inner {
+    padding: 16px 20px;
+  }
+  .price-blue-sec-inner h5 {
+    font-size: 18px;
+  }
+  .banner-section-con {
+    padding: 70px 0px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -1006,6 +1153,51 @@ body {
   .Footer h6 {
     margin-top: 10px;
   }
+  .about-main {
+    padding: 0px 10px 0px 10px;
+  }
+  .about-main .about-text p {
+    font-size: 12px;
+  }
+  .about-main .about-text h5 {
+    font-size: 14px;
+  }
+  .about-team h5 {
+    font-size: 24px;
+  }
+  .xero-main {
+    padding: 0px 10px 0px 10px;
+  }
+  .xero-main .xero-text p {
+    font-size: 13px;
+  }
+  .xero-main .xero-text h5 {
+    font-size: 16px;
+  }
+  .xero-video iframe {
+    height: 250px;
+  }
+  .price-text .price-text-inner h5 {
+    font-size: 17px;
+  }
+  .price-text-inner p {
+    font-size: 14px;
+  }
+  .price-text {
+    padding: 0px 10px 0px 10px;
+  }
+  .price-blue-sec {
+    margin: 20px 0px;
+  }
+  .price-blue-sec-inner {
+    padding: 12px 10px;
+  }
+  .price-blue-sec-inner h5 {
+    font-size: 17px;
+  }
+  .banner-section-con {
+    padding: 60px 0px;
+  }
 }
 
 @media (max-width: 576px) {
@@ -1053,5 +1245,27 @@ body {
   }
   .video-player {
     padding: 375px 0px 10px 0px;
+  }
+  .about-main {
+    padding: 0px;
+  }
+  .xero-main {
+    padding: 0px;
+  }
+  .xero-video iframe {
+    height: 150px;
+  }
+  .xero-main .xero-text h5 {
+    font-size: 14px;
+  }
+  .price-blue-sec {
+    margin: 10px 0px;
+  }
+  .price-blue-sec-inner {
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+  .banner-section-con {
+    padding: 40px 0px;
   }
 }
