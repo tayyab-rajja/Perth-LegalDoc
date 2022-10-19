@@ -412,6 +412,10 @@ body {
   font-weight: bold;
   font-size: 18px;
 }
+.contact-main h5{
+  font-weight: bold;
+  font-size: 16px;
+}
 .contact-main .card-body{
   font-weight: bold;
   font-size: 16px;
@@ -437,6 +441,48 @@ body {
   width: 100%;
   background-blend-mode: darken;
 }
+
+/* ABOUT US */
+
+.about-header {
+  background: rgba(0, 0, 0, 0.5) url("../images/about-header.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  background-blend-mode: darken;
+}
+.banner-section-about {
+  padding: 148px 0px;
+}
+.about-text {
+  margin-top: 40px;
+}
+.about-text h5{
+  font-weight: bold;
+}
+.about-team{
+  margin: 40px 0px;
+}
+.about-team h5{
+  font-size: 30px;
+  color: #2CC4ED;
+  font-weight: bold;
+  padding: 10px 0px;
+}
+.about-team .card{
+  margin-right: 26px;
+  margin-left: 8px;
+}
+.about-team .card:last-child{
+  margin-right: 8px;
+  margin-left: 0px;
+}
+.about-team .card p{
+  font-weight: bold;
+  font-size: 26px;
+}
+
+
 
 /* MEDIA QUERIES */
 
