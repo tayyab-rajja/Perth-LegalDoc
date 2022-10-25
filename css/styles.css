@@ -39,7 +39,6 @@ body {
   border-top-right-radius: 0;
   min-width: auto;
   width: 100%;
-  overflow: scroll;
   margin-top: 0;
   padding: 0;
   border-color: #ccc;
@@ -333,6 +332,8 @@ body {
 .Footer-last P {
   font-weight: bold;
   margin: 0px;
+}
+.footer-signup{
   display: flex;
   align-items: center;
 }
@@ -617,21 +618,93 @@ body {
 
 /* ESTABLISH A COMPANY */
 .est-com-blue-sec {
-  margin: 40px 0px;
+  margin: 30px 0px;
   background-color: #abddef;
+}
+.est-com-blue-sec .est-inner p {
+  font-weight: bold;
+  font-size: 13px;
+  padding-bottom: 5px;
 }
 
 .est-com-blue-sec h5 {
-  font-size: 30px;
+  font-size: 26px;
   font-weight: bold;
-  margin-top: 16px;
   margin-bottom: 0px;
 }
-.est-main {
-  padding: 0px 60px 0px 60px;
+.est-inner {
+  padding: 5px 60px 0px 60px;
+}
+.est-inner h5 {
+  font-size: 24px;
+  font-weight: bold;
+}
+.est-inner .est-blue-head {
+  font-size: 24px;
+  font-weight: bold;
+  color: #2cc4ed;
+}
+.est-inner span {
+  font-size: 14px;
+  font-weight: 600;
+}
+.est-inner li {
+  font-size: 14px;
+  font-weight: 600;
+}
+.est-inner .est-card .card {
+  border-radius: 20px;
+}
+.est-inner .card {
+  border-radius: 10px;
+}
+.est-inner .est-card img {
+  padding: 10px 10px 0px 10px;
+}
+.est-card .card-body h4 {
+  color: #2cc4ed;
+  font-weight: bold;
+}
+.est-card .card-body a {
+  padding: 6px 40px 6px 40px;
+  font-size: 14px;
+}
+.est-inner ul {
+  margin-top: 10px;
+}
+.est-inner .est-sec p {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.est-inner .card h5 {
+  font-size: 24px;
+  font-weight: bold;
+  padding: 10px 0px 0px 0px;
+}
+.est-inner .card .list ul {
+  margin: 0px;
+  padding: 10px 20px;
+}
+.list-mar {
+  padding-left: 10px;
+}
+.est-inner .est-third {
+  padding: 20px 0px;
+}
+.est-inner .est-third span {
+  color: #2cc4ed;
+  font-size: 24px;
+  font-weight: bold;
+}
+.est-inner .est-third p {
+  font-size: 14px;
+  margin-top: 0px;
+  font-weight: bold;
 }
 
 /* SIGN UP */
+
 .signup-header {
   background: rgba(0, 0, 0, 0.5) url("../images/signup.jpg");
   background-repeat: no-repeat;
@@ -678,7 +751,6 @@ body {
   padding: 2px 32px 2px 32px;
   font-size: 18px;
 }
-
 .card-logo .card-logo-inner h5 {
   font-weight: bold;
 }
@@ -688,25 +760,58 @@ body {
 .sign-footer {
   width: 150px;
 }
-
 .sign-details .hl {
-  border-bottom: 3px solid rgb(147, 147, 147);
+  border-bottom: 3px solid rgb(43, 43, 43);
 }
 .sign-details .card {
   border-radius: 20px;
 }
-.sign-details .sign2-card h5{
-  font-size: 30px;
+.sign-details .sign2-card h5 {
+  font-size: 26 px;
   font-weight: bold;
 }
-.sign-details .sign2-card label{
-  font-size: 20px;
-  padding: 16px 0px;
+.sign-details .sign2-card label {
+  font-size: 18px;
+  padding: 10px 0px;
+}
+.sign-details .sign2-card input {
+  padding: 8px 0px;
+}
+.sign2-card .select-input {
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+}
+
+/* FORGOT PASSWORD */
+
+.forgot-header {
+  background: rgba(0, 0, 0, 0.5) url("../images/signup.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  background-blend-mode: darken;
+}
+.reset-main {
+  padding: 30px 60px 30px 60px;
+}
+.reset-main a {
+  color: black;
+}
+.reset-main .reset-inner h5 {
+  color: #2cc4ed;
   font-weight: bold;
+  font-size: 22px;
 }
-.sign-details .sign2-card input{
-  padding: 16px 0px;
+.reset-main .reset-inner p {
+  font-weight: 700;
 }
+.reset-main .reset-inner label {
+  font-weight: 700;
+}
+.reset-main .reset-inner input {
+  width: 40%;
+}
+
 /* MEDIA QUERIES */
 
 @media (max-width: 1886px) {
@@ -1244,6 +1349,64 @@ body {
   .sign-footer {
     width: 120px;
   }
+  .contact-form input {
+    font-size: 14px;
+  }
+  .contact-form textarea {
+    font-size: 14px;
+  }
+  .reset-main {
+    padding: 30px 20px 30px 20px;
+  }
+  .reset-main .reset-inner p {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .reset-main .reset-inner label {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .reset-main .reset-inner input {
+    font-size: 14px;
+    width: 50%;
+  }
+  .est-inner h5 {
+    font-size: 20px;
+  }
+  .est-com-blue-sec .est-inner p {
+    font-size: 12px;
+  }
+  .est-inner .est-blue-head {
+    font-size: 20px;
+  }
+  .est-inner {
+    padding: 5px 20px 0px 20px;
+  }
+  .est-inner span {
+    font-size: 12px;
+  }
+  .est-inner li {
+    font-size: 12px;
+  }
+  .est-inner .est-sec p {
+    font-size: 13px;
+  }
+  .est-inner .card h5 {
+    font-size: 20px;
+  }
+  .est-card .card-body a {
+    padding: 6px 20px 6px 20px;
+    font-size: 12px;
+  }
+  .est-card .card-body h4 {
+    font-size: 20px;
+  }
+  .est-inner .est-third span {
+    font-size: 20px;
+  }
+  .est-inner .est-third p {
+    font-size: 13px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -1411,6 +1574,62 @@ body {
   .Footer-last P {
     font-size: 12px;
   }
+  .contact-form input {
+    font-size: 12px;
+  }
+  .contact-form textarea {
+    font-size: 12px;
+  }
+  .reset-main {
+    padding: 20px 10px 20px 10px;
+  }
+  .reset-main .reset-inner p {
+    font-size: 13px;
+    font-weight: bold;
+  }
+  .reset-main .reset-inner label {
+    font-weight: bold;
+    font-size: 13px;
+  }
+  .reset-main .reset-inner input {
+    font-size: 13px;
+    width: 50%;
+  }
+  .est-inner {
+    padding: 5px 0px 0px 0px;
+  }
+  .est-inner h5 {
+    font-size: 16px;
+  }
+  .est-inner .est-blue-head {
+    font-size: 16px;
+  }
+  .est-inner span {
+    font-size: 12px;
+    font-weight: 400;
+  }
+  .est-inner li {
+    font-size: 12px;
+    font-weight: 400;
+  }
+  .est-com-blue-sec .est-inner p {
+    font-size: 12px;
+    font-weight: 600;
+  }
+  .est-inner .est-card .card {
+    margin: 20px 0px;
+    border-radius: 20px;
+  }
+  .est-inner .est-third span {
+    font-size: 16px;
+  }
+.est-inner .card h5 {
+    font-size: 16px;
+}
+.est-inner .est-third p {
+  font-size: 12px;
+  font-weight: 400;
+}
 }
 
 @media (max-width: 576px) {
@@ -1525,5 +1744,18 @@ body {
   .sign-footer {
     width: 120px;
     margin-bottom: 10px;
+  }
+  .reset-main .reset-inner p {
+    font-size: 12px;
+  }
+  .reset-main .reset-inner label {
+    font-size: 13px;
+  }
+  .reset-main .reset-inner input {
+    font-size: 12px;
+    width: 70%;
+  }
+  .reset-main {
+    padding: 20px 0px 20px 0px;
   }
 }
