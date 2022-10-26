@@ -4,6 +4,9 @@ body {
 
 /* NAVBAR */
 
+.logo {
+  width: 130px;
+}
 .sticky {
   position: sticky;
 }
@@ -81,6 +84,10 @@ body {
 .main-items {
   margin-right: 10px;
 }
+.sticky {
+  position: sticky;
+  top: 0px;
+}
 .nav-item a {
   font-size: 16px;
   font-weight: 500;
@@ -117,6 +124,7 @@ body {
   background: transparent;
   resize: none;
   outline: none;
+  color: white;
 }
 .search {
   background-color: #2cc4ed;
@@ -265,7 +273,7 @@ body {
 .inner-slider .card {
   padding: 20px;
   border-radius: 16px;
-  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  /* box-shadow: 0 3px 10px rgb(0 0 0 / 0.2); */
 }
 
 .inner-slider .card .slider-img {
@@ -333,7 +341,7 @@ body {
   font-weight: bold;
   margin: 0px;
 }
-.footer-signup{
+.footer-signup {
   display: flex;
   align-items: center;
 }
@@ -423,6 +431,9 @@ body {
 
 /* CONTACT US PAGE */
 
+.card-con {
+  height: 120px;
+}
 .contact-form {
   border-radius: 15px;
   padding: 15px;
@@ -463,6 +474,7 @@ body {
 .contact-main .card-title {
   font-weight: bold;
   font-size: 16px;
+  margin: 0px;
 }
 .contact-main h5 {
   font-weight: bold;
@@ -470,7 +482,7 @@ body {
 }
 .contact-main h4 {
   font-weight: bold;
-  font-size: 20px;
+  font-size: 16px;
 }
 .contact-main .card-body {
   font-weight: bold;
@@ -496,6 +508,10 @@ body {
   background-size: cover;
   width: 100%;
   background-blend-mode: darken;
+}
+.contact-button .button {
+  padding: 6px 34px 6px 34px;
+  font-size: 18px;
 }
 
 /* ABOUT US PAGE */
@@ -730,6 +746,7 @@ body {
 
 .signup-inner .card-logo p a {
   color: #2cc4ed;
+  text-decoration: none;
 }
 .signup-inner .logo-img {
   width: 150px;
@@ -761,13 +778,13 @@ body {
   width: 150px;
 }
 .sign-details .hl {
-  border-bottom: 3px solid rgb(43, 43, 43);
+  border-bottom: 2px solid rgb(43, 43, 43);
 }
 .sign-details .card {
   border-radius: 20px;
 }
 .sign-details .sign2-card h5 {
-  font-size: 26 px;
+  font-size: 26px;
   font-weight: bold;
 }
 .sign-details .sign2-card label {
@@ -775,11 +792,30 @@ body {
   padding: 10px 0px;
 }
 .sign-details .sign2-card input {
-  padding: 8px 0px;
+  padding: 6px 0px;
 }
 .sign2-card .select-input {
   border: 1px solid #ced4da;
   border-radius: 5px;
+  padding: 8px 12px;
+}
+.sign-blue {
+  background-color: #22bae3;
+  margin-top: 20px;
+  border-radius: 10px;
+  padding: 10px 30px;
+  color: white;
+}
+.sign-blue h5 {
+  font-size: 20px;
+  margin-left: 20px;
+  font-weight: bold;
+}
+.sign-pad {
+  padding: 0px 0px;
+}
+.card .card-logo input::placeholder {
+  color: #8B8B8C;
 }
 
 /* FORGOT PASSWORD */
@@ -846,9 +882,6 @@ body {
   .nav-item a:hover {
     color: #009cdf;
   }
-  .logo {
-    width: 150px;
-  }
   .nav-item {
     padding: 0 4px 0 4px;
   }
@@ -873,7 +906,7 @@ body {
     color: #009cdf;
   }
   .logo {
-    width: 130px;
+    width: 120px;
   }
   .logo-footer {
     height: 80px;
@@ -981,16 +1014,15 @@ body {
     font-weight: bold;
     font-size: 14px;
   }
+  .sign-details .sign2-card h5 {
+    font-size: 22px;
+  }
 }
 
 @media (max-width: 1199px) {
   .nav-item a:hover {
     color: #009cdf;
   }
-  /* .logo {
-      width: 140px;
-      height: 40px;
-    } */
   .logo-footer {
     width: 190px;
   }
@@ -1014,8 +1046,8 @@ body {
     font-weight: 14px;
   }
   .button {
-    padding: 6px 15px 6px 15px;
-    font-size: 16px;
+    padding: 5px 12px 5px 13px;
+    font-size: 14px;
   }
   .no-border {
     width: 95px;
@@ -1163,6 +1195,22 @@ body {
   .contact-main .card-title {
     font-size: 14px;
   }
+  .contact-form input {
+    padding: 14px;
+  }
+  .contact-button .button {
+    padding: 4px 28px 4px 28px;
+    font-size: 16px;
+  }
+  .contact-main h4 {
+    font-size: 14px;
+  }
+  .contact-main h5 {
+    font-size: 14px;
+  }
+  .sign-blue h5 {
+    font-size: 18px;
+  }
 }
 
 @media (max-width: 991px) {
@@ -1181,12 +1229,14 @@ body {
     text-align: center;
     z-index: 1;
   }
+  .nav-item a {
+    font-size: 14px;
+  }
   .header-img .navbar-con .button {
     margin-bottom: 18px;
   }
   .logo {
-    width: 130px;
-    height: 40px;
+    width: 110px;
   }
   .logo-footer {
     height: 80px;
@@ -1350,10 +1400,17 @@ body {
     width: 120px;
   }
   .contact-form input {
-    font-size: 14px;
+    font-size: 12px;
   }
   .contact-form textarea {
-    font-size: 14px;
+    font-size: 12px;
+  }
+  .contact-form input {
+    padding: 12px;
+  }
+  .contact-button .button {
+    padding: 4px 24px 4px 24px;
+    font-size: 16px;
   }
   .reset-main {
     padding: 30px 20px 30px 20px;
@@ -1407,15 +1464,45 @@ body {
   .est-inner .est-third p {
     font-size: 13px;
   }
+  .no-border {
+    width: 140px;
+  }
+  .search-input input::placeholder {
+    font-size: 14px;
+  }
+  .contact-main h4 {
+    font-size: 12px;
+  }
+  .contact-main h5 {
+    font-size: 12px;
+  }
+  .sign-blue h5 {
+    font-size: 18px;
+  }
+  .sign-details .sign2-card h5 {
+    font-size: 20px;
+  }
+  .sign-details .sign2-card label {
+    font-size: 14px;
+    padding: 10px 0px;
+  }
+  .sign2-card .select-input {
+    font-size: 14px;
+  }
+  .sign2-card .choose-input {
+    font-size: 14px;
+}
 }
 
 @media (max-width: 768px) {
   .res {
     margin-top: 20px;
   }
+  .map {
+    padding-left: 0px;
+  }
   .logo {
-    width: 120px;
-    height: 35px;
+    width: 90px;
   }
   .logo-footer {
     height: 70px;
@@ -1535,6 +1622,13 @@ body {
   .about-team h5 {
     font-size: 24px;
   }
+  .contact-form input {
+    font-size: 10px;
+  }
+  .contact-button .button {
+    padding: 4px 20px 4px 20px;
+    font-size: 14px;
+  }
   .xero-main {
     padding: 0px 10px 0px 10px;
   }
@@ -1574,11 +1668,8 @@ body {
   .Footer-last P {
     font-size: 12px;
   }
-  .contact-form input {
-    font-size: 12px;
-  }
   .contact-form textarea {
-    font-size: 12px;
+    font-size: 10px;
   }
   .reset-main {
     padding: 20px 10px 20px 10px;
@@ -1623,13 +1714,19 @@ body {
   .est-inner .est-third span {
     font-size: 16px;
   }
-.est-inner .card h5 {
+  .est-inner .card h5 {
     font-size: 16px;
-}
-.est-inner .est-third p {
-  font-size: 12px;
-  font-weight: 400;
-}
+  }
+  .est-inner .est-third p {
+    font-size: 12px;
+    font-weight: 400;
+  }
+  .sign-blue h5 {
+    font-size: 16px;
+  }
+  .sign-details .sign2-card label {
+    padding: 5px 0px;
+  }
 }
 
 @media (max-width: 576px) {
@@ -1757,5 +1854,15 @@ body {
   }
   .reset-main {
     padding: 20px 0px 20px 0px;
+  }
+  .contact-button .button {
+    padding: 4px 16px 4px 16px;
+    font-size: 12px;
+  }
+  .contact-main .card-title {
+    font-size: 12px;
+  }
+  .sign-blue h5 {
+    font-size: 12px;
   }
 }
