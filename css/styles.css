@@ -7,10 +7,6 @@ body {
 .logo {
   width: 130px;
 }
-.sticky {
-  position: sticky;
-  top: 0;
-}
 .nav-mega {
   width: 100%;
 }
@@ -46,6 +42,7 @@ body {
   padding: 0;
   border-color: #ccc;
 }
+
 .dropdown-menu.mega-menu > li {
   padding: 20px;
   list-style: circle;
@@ -83,10 +80,6 @@ body {
 }
 .main-items {
   margin-right: 10px;
-}
-.sticky {
-  position: sticky;
-  top: 0px;
 }
 .nav-item a {
   font-size: 16px;
@@ -172,7 +165,10 @@ body {
 .banner-inner .button {
   padding: 8px 40px 8px 40px;
 }
-
+.card-image-col {
+  display: flex;
+  align-items: center;
+}
 .ban-card-sec .card {
   margin-top: 0%;
   border-radius: 15px;
@@ -205,7 +201,7 @@ body {
 .ban-card-sec {
   position: absolute;
   content: "";
-  top: 622px;
+  top: 590px;
   left: 0;
   width: 100%;
 }
@@ -958,7 +954,7 @@ body {
     top: -66px;
   }
   .ban-card-sec .card .card-image {
-    width: 75px;
+    width: 80px;
   }
   .ban-card-sec .card {
     margin-right: 15px;
@@ -1077,7 +1073,7 @@ body {
     font-size: 20px;
   }
   .ban-card-sec {
-    top: 442px;
+    top: 436px;
   }
   .Newsletter-card {
     top: -50px;
@@ -1274,7 +1270,7 @@ body {
     padding: 8px 0px 8px 4px;
   }
   .ban-card-sec {
-    top: 344px;
+    top: 352px;
   }
   .Newsletter-card {
     top: -42px;
