@@ -9,6 +9,7 @@ body {
 }
 .sticky {
   position: sticky;
+  top: 0;
 }
 .nav-mega {
   width: 100%;
@@ -29,7 +30,6 @@ body {
 .dropdown-menu p {
   font-size: 14px;
 }
-
 .dropdown-menu.mega-menu {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
