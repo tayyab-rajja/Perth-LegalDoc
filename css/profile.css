@@ -1,0 +1,26 @@
+.profile-nav {
+  color: white;
+  text-decoration: none;
+  content: none;
+}
+.drop-profile {
+  left: auto !important;
+  right: -1px;
+  margin-top: 0px !important;
+}
+.dropdown-toggle-profile::after {
+  content: none;
+}
+.drop-item {
+  padding: 4px 8px;
+}
+@media (max-width: 991px) {
+  .drop-profile {
+    left: 0px;
+    width: 100%;
+    text-align: center;
+  }
+  .prof-main {
+    margin-bottom: 5px;
+  }
+}
