@@ -915,7 +915,7 @@ body {
   margin-bottom: 20px;
 }
 
-/* BLOG  */
+/* BLOGS  */
 
 .blog-main {
   margin-top: 40px;
@@ -936,6 +936,27 @@ body {
 }
 .blog-main a:hover {
   color: #009cdf;
+}
+
+/* BLOG  */
+
+.blog-header {
+  padding: 40px 200px;
+}
+.blog-header h5{
+  font-weight: 700;
+}
+.blog-header br{
+  padding: 20px 0px;
+}
+.blog-header p {
+  text-align: justify;
+}
+.table-row{
+  background-color: #2cc4ed;
+}
+.table-row th {
+  color: white;
 }
 /* MEDIA QUERIES */
 
