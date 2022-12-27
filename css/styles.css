@@ -880,6 +880,23 @@ body {
 
 /* FREQUENTLY ASKED QUESTIONS */
 
+.faq-img {
+  background: rgba(0, 0, 0, 0.5) url("../images/faq.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  background-blend-mode: darken;
+  background-position: inherit;
+}
+.faq-search {
+  background-color: #2cc4ed;
+  border-radius: 30px;
+  padding: 10px;
+}
+.search-input-faq input::placeholder {
+  padding: 0px 5px;
+  color: white;
+}
 .faq-card {
   margin-left: 2%;
   margin-right: 2%;
@@ -889,7 +906,9 @@ body {
 .faq-margin {
   margin: 0px 15%;
 }
-
+.faq-blue{
+  margin-top: auto;
+}
 .price-blue-sec h3 {
   font-weight: 700;
 }
@@ -903,7 +922,7 @@ body {
 }
 .accordion-body li {
   padding: 5px 0px;
-  font-size: 12px;
+  font-size: 14px;
 }
 .accordion-body a {
   color: #2cc4ed;
@@ -914,9 +933,20 @@ body {
 .par-card {
   margin-bottom: 20px;
 }
+.price-blue-sec .search {
+  opacity: 1.5;
+}
 
 /* BLOGS  */
 
+.blogs-img {
+  background: rgba(0, 0, 0, 0.5) url("../images/blogs.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  background-blend-mode: darken;
+  background-position: inherit;
+}
 .blog-main {
   margin-top: 40px;
   margin-bottom: 40px;
@@ -943,21 +973,30 @@ body {
 .blog-header {
   padding: 40px 200px;
 }
-.blog-header h5{
+.blog-header h5 {
   font-weight: 700;
+  margin: 35px 0px 15px 0px;
 }
-.blog-header br{
+.blog-header br {
   padding: 20px 0px;
 }
 .blog-header p {
   text-align: justify;
 }
-.table-row{
+.table-row {
   background-color: #2cc4ed;
 }
 .table-row th {
   color: white;
 }
+.blog-img {
+  background: rgba(0, 0, 0, 0.5) url("../images/blog.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  background-blend-mode: darken;
+}
+
 /* MEDIA QUERIES */
 
 @media (max-width: 1886px) {
@@ -1354,6 +1393,9 @@ body {
   .faq-margin {
     margin: 0px 100px;
   }
+  .blog-header {
+    padding: 40px 120px;
+  }
 }
 
 @media (max-width: 991px) {
@@ -1661,6 +1703,9 @@ body {
   .faq-margin {
     margin: 0px 70px;
   }
+  .blog-header {
+    padding: 30px 80px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -1921,6 +1966,15 @@ body {
   .accordion-body {
     padding: 10px 10px;
   }
+  .blog-header {
+    padding: 15px 60px;
+  }
+  .blog-header p {
+    font-size: 14px;
+  }
+  .blog-header h5 {
+    font-size: 16px;
+  }
 }
 
 @media (max-width: 576px) {
@@ -2077,5 +2131,14 @@ body {
     font-weight: 600;
     font-size: 14px;
     padding: 20px 0px;
+  }
+  .blog-header {
+    padding: 0px 15px;
+  }
+  .width{
+    width: 80px;
+  }
+  .price-blue-sec h3 {
+    font-size: 20px;
 }
 }
